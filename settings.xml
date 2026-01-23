@@ -1,0 +1,33 @@
+<settings>
+<servers>
+  <server>
+    <id>cicdproject-cicd-repo</id>
+    <username>aws</username>
+    <password>${env.CODEARTIFACT_AUTH_TOKEN}</password>
+  </server>
+</servers>
+
+<profiles>
+  <profile>
+    <id>cicdproject-cicd-repo</id>
+    <activation>
+      <activeByDefault>true</activeByDefault>
+    </activation>
+    <repositories>
+      <repository>
+        <id>cicdproject-cicd-repo</id>
+        <url>https://cicdproject-576112251895.d.codeartifact.us-east-1.amazonaws.com/maven/cicd-repo/</url>
+      </repository>
+    </repositories>
+  </profile>
+</profiles>
+
+<mirrors>
+  <mirror>
+    <id>cicdproject-cicd-repo</id>
+    <name>cicdproject-cicd-repo</name>
+    <url>https://cicdproject-576112251895.d.codeartifact.us-east-1.amazonaws.com/maven/cicd-repo/</url>
+    <mirrorOf>*</mirrorOf>
+  </mirror>
+</mirrors>
+</settings>
