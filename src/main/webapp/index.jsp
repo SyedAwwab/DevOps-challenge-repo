@@ -1,7 +1,7 @@
 <html>
 <body>
 <section class="project-card">
-  <h2>🚀 CI/CD Automation with AWS</h2>
+  <h2>CI/CD Automation with AWS</h2>
   <p>
     I designed and implemented a fully automated CI/CD pipeline using 
     <strong>AWS CodeBuild</strong> and <strong>AWS CodeDeploy</strong> to build and deploy a web application seamlessly. 
