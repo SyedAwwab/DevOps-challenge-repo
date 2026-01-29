@@ -1,7 +1,7 @@
 version: 0.0
 os: linux
 files:
-  - source: /target/devops-cicd-awwab.war
+  - source: /target/devops-cicd-awwab-artifacts.war
     destination: /usr/share/tomcat/webapps/
 hooks:
   BeforeInstall:
