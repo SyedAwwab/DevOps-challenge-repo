@@ -13,6 +13,8 @@
     infrastructure automation, and building reliable deployment workflows 
     that improve efficiency, consistency, and scalability.
   </p>
+  <p>If you see this line, that means your latest changes are automatically deployed into production by CodePipeline!</p>
+
 </section>
 
 <style>
